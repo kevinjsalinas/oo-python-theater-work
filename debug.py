@@ -12,11 +12,12 @@ mcbeth = Role("mcbeth")
 peter_parker = Role("peter_parker")
 slash = Role("slash")
 
-joe = Audition("joe", "clifton, nj", False, mcbeth)
 kevin = Audition("kevin", "new york, ny", False, peter_parker)
 dakota = Audition("dakota", "sunnyville, fl", False, slash)
 mike = Audition("mike", "cancun, mexico", False, mcbeth)
 jon = Audition("jon", "lima, peru", True, mcbeth)
+joe = Audition("joe", "clifton, nj", True, mcbeth)
+
 
 
 
